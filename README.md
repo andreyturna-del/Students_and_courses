@@ -13,30 +13,30 @@ Containerization Docker + docker-compose
 
 
 Структура папок проекта
-Students_and_courses/
-├── .github/workflows/ci.yml
-├── docs/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/studentscourses/
-│   │   │   ├── StudentsCoursesApplication.java
-│   │   │   ├── config/            # Security, Swagger
-│   │   │   ├── controller/        # REST-контроллеры
-│   │   │   ├── service/           # бизнес-логика
-│   │   │   ├── repository/        # Spring Data JPA
-│   │   │   ├── entity/            # сущности БД
-│   │   │   ├── dto/               # DTO
-│   │   │   └── exception/         # обработка ошибок
-│   │   └── resources/
-│   │       ├── application.yml
-│   │       ├── db/migration/      # Flyway
-│   │       └── templates/
-│   └── test/java/...              # тесты
-├── .env.example
-├── .gitignore
-├── docker-compose.yml
-├── Dockerfile
-├── LICENSE
-├── README.md
-├── pom.xml
-└── target/                        # (в .gitignore)
+Students_and_courses
+.github/workflows/ci.yml
+ docs/
+ src/
+ main/
+ java/com/example/studentscourses/
+ StudentsCoursesApplication.java
+ config/            # Security, Swagger
+ controller/        # REST-контроллеры
+ service/           # бизнес-логика
+ repository/        # Spring Data JPA
+ entity/            # сущности БД
+ dto/               # DTO
+ exception/         # обработка ошибок
+ resources/
+ application.yml
+ db/migration/      # Flyway
+ templates/
+ test/java/...              # тесты
+ .env.example
+ .gitignore
+ docker-compose.yml
+ Dockerfile
+ LICENSE
+ README.md
+ pom.xml
+ target/                        # (в .gitignore)
